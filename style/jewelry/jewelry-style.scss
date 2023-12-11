@@ -1,0 +1,26 @@
+.jewelry-block__item{
+  margin: 15px 0;
+  position: relative;
+
+}
+.jewelry-block__link img{
+  width: 100%;
+  z-index: 1;
+}
+.jewelry-block__link:hover{
+  .jewelry-block__choose{
+    display: block;
+    background-color: #41b7aa;
+    z-index: 2;
+  }
+}
+.jewelry-block__choose{
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 20%;
+  display: none;
+  width: 92%;
+  margin-left: 14px;
+  height: 100%;
+}

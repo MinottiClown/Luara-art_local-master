@@ -1,0 +1,38 @@
+.slick-initialized .slick-slide{
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited{
+    outline: none;
+  }
+}
+
+.main-page-slider{
+  display: block;
+  width: 100%;
+  margin: 0 auto 30px;
+}
+.slick-dots{
+  position: relative;
+  bottom: 0;
+}
+.slick-dots li{
+  width: 10px;
+  height: 10px;
+
+}
+.slick-dots li button{
+  border: 2px solid #d3d3d3;
+  padding: 3px;
+  width: 4px;
+  height: 4px;
+  line-height: 4px;
+}
+.slick-dots li button:before {
+  content: none;
+}
+
+  .slick-dots li button:hover{
+  border: 2px solid #696969;
+    transition: 300ms;
+}

@@ -1,0 +1,39 @@
+.mp-block__adv {
+  border-bottom: solid 1px #e0e0e0;
+  border-top: solid 1px #e0e0e0;
+  text-decoration: none;
+  position: relative;
+
+  &-item {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+	height: 118px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+
+    &:hover {
+      color: #41b7aa;
+      text-decoration: underline;
+    }
+
+  }
+
+  &-text {
+	float: left;
+	padding: 16px 0 0 16px;
+  }
+
+  &-image {
+	float: left;
+	border: solid 1px #e5e5e5;
+	border-radius: 50%;
+	width: 72px;
+	height: 72px;
+  }
+
+}

@@ -1,0 +1,32 @@
+.reviews-block__image{
+  text-align: center;
+  margin: 18px 0 18px 0;
+}
+.reviews-block{
+  padding-bottom: 40px;
+}
+.reviews-block__item__img{
+  padding: 10px;
+}
+.reviews-block__rev__info__text__name{
+  font-weight: bold;
+  margin-bottom: -1px;
+}
+.reviews-block__link{
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 136px;
+  display: block;
+  text-decoration: none;
+  color: black;
+
+}
+.reviews-block__link:hover{
+  border: 2px solid #41b7aa;
+  transition: 300ms;
+  color: #41b7aa;
+
+}

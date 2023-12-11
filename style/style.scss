@@ -1,0 +1,33 @@
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body{
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5em;
+  min-height: 100%;
+  height: auto;
+  background: #ffffff;
+}
+@import "./header/header_style";
+@import "../slick/slick";
+@import "../slick/slick-theme";
+@import "./slider/slides";
+@import "Main-page-content/adventages";
+@import "Main-page-content/adv-desk";
+@import "Main-page-content/reviews";
+@import "Main-page-content/slider";
+@import "footer/footer-style";
+@import "about_brand/about_brand_style";
+@import "contacts/contacts-style";
+@import "stocks/stocks-style";
+@import "terms/terms-style";
+@import "feedback-form/feedback-form_style";
+@import "jw-detail/rings-style";
+@import "jw-detail-view/jw-detail-view_style";
+@import "collections/collections";
+@import "catalog/rings";
+@import "jewelry/jewelry-style";

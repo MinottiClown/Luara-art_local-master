@@ -1,0 +1,98 @@
+.footer {
+  margin-top: 20px;
+  background: #80d8d0;
+  color: white;
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+  padding: 25px 15px;
+}
+.footer-links-base-info{
+  padding: 0 25px;
+}
+.footer-links-jewelry{
+  padding: 0 25px;
+}
+.footer-links__list{
+  list-style: none;
+  padding-left: 0;
+}
+.footer-links__list__item{
+  padding: 0 0 5px;
+}
+.footer-links__list__item:last-child{
+  padding-top: 5px;
+}
+.footer-links-jewelry-list__item{
+  padding: 0 0 5px;
+}
+.footer-links-jewelry__link{
+  color: white;
+}
+.footer-links-jewelry-list{
+  list-style: none;
+  padding-left: 0;
+}
+.footer-links-base-info__link{
+  color: white;
+}
+.footer-links-connection{
+  text-align: right;
+  float: none;
+}
+.footer-links-connection__item{
+  display: inline-block;
+  margin: 0 0 0 10px;
+  color: white;
+}
+.footer-links-connection__item:hover{
+  color: white;
+}
+.footer-links-connection a:nth-child(2){
+  text-align: right;
+}
+.footer-links-connection__soc-block{
+  text-align: right;
+  padding-top: 15px;
+}
+.footer-links-connection__soc-block a{
+  display: inline-block;
+  text-align: center;
+  color: #80d8d0;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  background: #c0ece8;
+  font-size: 1.1em;
+
+  margin-right: 5px;
+}
+
+.footer-links-connection__soc-block a:hover{
+  text-decoration: none;
+  background: #597da3;
+}
+.footer-links-connection__soc-block a:nth-child(3):hover{
+  text-decoration: none;
+  background: #E1306C;
+}
+.footer-links-connection__soc-block a:nth-child(4){
+  text-decoration: none;
+  color: #41b7aa;
+}
+
+.footer-payment{
+
+}
+.footer-payment__block{
+  text-align: center;
+}
+.footer-payment__text{
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.copyright{
+  text-align: right;
+  margin-bottom: 0;
+}
